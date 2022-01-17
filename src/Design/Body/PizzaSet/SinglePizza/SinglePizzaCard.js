@@ -70,7 +70,9 @@ export default function SinglePizzaCard(prop) {
           </p>
         </div>
       </div>
-      <CustomizedSnackbars val={prop.val.name} size={prop.val.size}/>
+      <div style={{padding:"10px"}}>
+        <CustomizedSnackbars val={prop.val.name} size={prop.val.size} />
+      </div>
     </div>
   );
 }
