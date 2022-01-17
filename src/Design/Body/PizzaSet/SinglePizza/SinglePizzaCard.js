@@ -1,5 +1,6 @@
 import React from "react";
 import { clrs } from "../../../../DataSheet";
+import CustomizedSnackbars from "./CustomizedSnackbars";
 import pizza1 from "./pizza.png";
 import "./Res.css";
 
@@ -69,6 +70,7 @@ export default function SinglePizzaCard(prop) {
           </p>
         </div>
       </div>
+      <CustomizedSnackbars val={prop.val.name} size={prop.val.size}/>
     </div>
   );
 }
