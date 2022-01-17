@@ -1,0 +1,95 @@
+@media only screen and (min-width: 100px) {
+  #pizzaImage {
+    width: 120px;
+  }
+  #txt {
+    color: aliceblue;
+    font-size: 12px;
+  }
+  #txt1 {
+    color: aliceblue;
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  #pizzaImage {
+    width: 170px;
+  }
+  #txt {
+    color: aliceblue;
+    font-size: 15px;
+  }
+  #txt1 {
+    color: aliceblue;
+    font-size: 18px;
+  }
+  #txt2 {
+    color: aliceblue;
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  #pizzaImage {
+    width: 250px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #pizzaImage {
+    width: 320px;
+  }
+  #name {
+    font-size: "18px";
+  }
+  #txt {
+    color: aliceblue;
+    font-size:18px;
+  }
+  #txt1 {
+    color: aliceblue;
+    font-size:21px;
+  }
+  #txt2 {
+    color: aliceblue;
+    font-size:29px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  #pizzaImage {
+    width: 390px;
+  }
+  #name {
+    font-size: "50px";
+    color: aliceblue;
+  }
+  #txt2 {
+    color: aliceblue;
+    font-size: 35px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  #pizzaImage {
+    width: 420px;
+  }
+  #txt {
+    color: aliceblue;
+    font-size: 20px;
+  }
+  #txt1 {
+    color: aliceblue;
+    font-size: 23px;
+  }
+  #txt2 {
+    color: aliceblue;
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  #pizzaImage {
+    width: 480px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  #pizzaImage {
+    width: 530px;
+  }
+}
