@@ -1,5 +1,6 @@
 import React from "react";
 import AboutUs from "./AboutUs/AboutUs";
+import ButtonSet from "./Cart/ButtonSet";
 import image from "./img47.jpg";
 import PizzaSet from "./PizzaSet/PizzaSet";
 import Promotion from "./Promotions/Promotion";
@@ -14,6 +15,7 @@ export default function Body() {
       />
       <PizzaSet />
       <Promotion />
+      <ButtonSet />
       <AboutUs />
     </div>
   );
